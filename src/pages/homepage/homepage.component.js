@@ -1,9 +1,9 @@
 import React from "react";
-import Directory from "../../components/directory/directory.component";
+import Directory from "../../components/Directory/Directory.component";
 
-import "./homepage.styles.scss";
+import "./HomePage.styles.scss";
 
-export const Homepage = () => {
+export const HomePage = () => {
   return (
     <div className="homepage">
       <Directory />

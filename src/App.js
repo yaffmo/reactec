@@ -1,8 +1,8 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import "./App.scss";
-import { Homepage } from "./pages/homepage/homepage.component";
-import ShopPage from "./pages/shop/shop.component";
+import { HomePage } from "./pages/HomePage/HomePage.component";
+import ShopPage from "./pages/ShopPage/ShopPage.component";
 export const Hatspage = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ export const Hatspage = () => {
 function App() {
   return (
     <div>
-      <Route exact path="/" component={Homepage} />
+      <Route exact path="/" component={HomePage} />
       <Route path="/shop" component={ShopPage} />
     </div>
   );
