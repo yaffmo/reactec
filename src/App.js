@@ -1,25 +1,10 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.scss'
-import { HomePage } from './Homepage'
+import React from "react";
+
+import "./App.scss";
+import { HomePage } from "./pages/homepage/homepage.component";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <HomePage />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  )
+  return <HomePage />;
 }
 
-export default App
+export default App;
